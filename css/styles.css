@@ -41,3 +41,15 @@ body {
   left: 7rem;
   z-index: 1;
 }
+
+.glass-panelPink {
+  height: auto;
+  padding: 3rem 6rem;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(216, 4, 250, 0.4);
+  border-radius: 12px;
+  border: 1px solid rgba(216, 4, 250, 0.4);
+  position: relative;
+  z-index: 10;
+}

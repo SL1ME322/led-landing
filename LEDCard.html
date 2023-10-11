@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          container: {
+            center: true,
+            padding: {
+              DEFAULT: '1rem',
+              sm: '2rem',
+              lg: '4rem',
+              xl: '5rem',
+              '2xl': '6rem',
+            },
+          },
+          fontSize: {
+            'Header1': ['40px', { fontWeight: '700', }],
+            'Header2': ['32px', { fontWeight: '600', }],
+            'Header3': ['26px', { fontWeight: '600', }],
+            'Header4': ['22px', { fontWeight: '700', }],
+            'Body1': ['16px',],
+            'Body2': ['15px',],
+            'Body3': ['11px', { fontWeight: '400', }],
+            'Body4': ['12px',],
+
+          },
+
+          fontFamily: {
+            'mainFont': ['Inter', 'sans-serif']
+          },
+          colors: {
+            'another-text': '#462e6a',
+            'h1-text': '#3C567B',
+            'violet': '#462E6A',
+            'headerCircle': '#DEEEFE',
+            'headerHeathcare': '#3C567B',
+            'buttonColor-bg': '#4CAF4F'
+          },
+          backgroundColor: {
+            'headerCircle': '#DEEEFE',
+            'buttonColor-bg': '#4CAF4F'
+          }
+        },
+      },
+    }
+  </script>
+  <title>Led panels</title>
+</head>
+
+<body class="text-white">
+  <div class="bg-[#B17BF] px-12  mx-auto w-7/12 h-7/12  bg-opacity-5  glass-panel">
+    <p class="text-Header1 leading-1 mx-auto text-center">Гибкие прозрачные LED экраны</p>
+    <p class="  text-Body2 leading-1 mx-auto text-center ">Наш сервис позволяет моментально копировать сделки успешных трейдеров на вашем
+      биржевом аккаунте</p>
+    <div class="flex space-x-12 pt-20">
+      <img class="w-44 h-44" src="img/LEDImages/violetcircle.png">
+      <div class="flex flex-col pt-2 pb-24">
+        <p class="text-Header3 pb-2">Пассивный заработок еще никогда не был таким простым и прибыльным </p>
+        <div class="rounded-sm w-4/12 h-[2pt] bg-gradient-to-r from-[#05C0CC] to-[#2C90F7]">
+        </div>
+        <p class="text-Body1 pt-2">Вам не нужно даже знать, что такое трейдинг и
+          криптовалюта. Вашим депозитом будет управлять один из лучших трейдеров мира</p>
+      </div>
+
+    </div>
+
+    <div class="flex  space-x-12">
+
+      <div class="flex flex-col pb-8">
+        <p class="text-Header3 pb-6">Мы собираем статистику трейдеров по всем их сделкам и выводим результаты на нашем сайте
+        </p>
+        <div class=" rounded-sm w-4/12 h-[2pt] bg-gradient-to-r from-[#05C0CC] to-[#2C90F7]">
+        </div>
+        <p class=" pt-6 text-Body1">Вам остается лишь выбрать самого подходящего трейдера и подписаться на него.
+          Все его сделки будут автоматически открываться и закрываться на вашем биржевом аккаунте.
+          В любой момент вы можете отписаться от трейдера или вывести свою прибыль</p>
+
+      </div>
+      <img class="w-44 h-44" src="img/LEDImages/graphimg.png">
+    </div>
+    <div class=" flex flex-col items-center text-center pt-18 pb-12 mx-auto">
+      <p class="text-Header4 pb-2">Как это работает </p>
+      <div class="w-40 h-[2pt] bg-gradient-to-r from-[#05C0CC] to-[#2C90F7]">
+
+      </div>
+    </div>
+
+    <div class="flex space-x-5 w-full text-white  ">
+      <div class="flex flex-col mini-glass-panel bg-[#09132F] bg-opacity-60 py-5 px-4 w-56 h-auto  items-center">
+        <div class="mx-auto w-4/12 h-4/12 items-center justify-center">
+          <img src="img/LEDImages/icon.png">
+        </div>
+
+        <p class="text-Body1 text-center pb-2 flex-grow  flex items-center">
+          Зарегистрируйтесь
+        </p>
+        <p class="text-Body3 text-center ">
+          на бирже Binance и на нашем сайте
+        </p>
+      </div>
+      <div class="flex my-auto w-auto h-4"><img src="img/LEDImages/arrow.png"></div>
+      <div class="flex flex-col mini-glass-panel bg-[#09132F] bg-opacity-60 py-5 px-4 w-56 h-auto  items-center">
+        <div class="mx-auto w-4/12 h-4/12 items-center justify-center">
+          <img src="img/LEDImages/icon2.png">
+        </div>
+
+        <p class="text-Body1 text-center pb-2 flex-grow flex items-center">
+          Пополните ваш депозит на Binance
+        </p>
+        <p class="text-Body3 text-center">
+          и подпишитесь на лучшего трейдера в нашем сервисе
+        </p>
+      </div>
+      <div class="flex my-auto w-auto h-4"><img src="img/LEDImages/arrow.png"></div>
+      <div class="flex flex-col mini-glass-panel bg-[#09132F] bg-opacity-60 py-5 px-4 w-56 h-auto  items-center">
+        <div class="mx-auto w-4/12 h-4/12 items-center justify-center">
+          <img src="img/LEDImages/icon3.png">
+        </div>
+
+        <p class="text-Body1 text-center pb-2 flex-grow flex items-center">
+          Займитесь чем-нибудь полезным
+        </p>
+        <p class="text-Body3 text-center">
+          пока профессиональные трейдеры зарабатывают вам деньги
+        </p>
+      </div>
+    </div>
+    <div class="text-white  ">
+      <div class=" flex flex-col items-center py-6  ">
+        <p class="text-center pb-3  ">
+          Полная инструкция по публичному трейдингу
+        </p>
+        <div class="w-32 h-[2pt] bg-gradient-to-r from-[#05C0CC] to-[#2C90F7] ">
+
+        </div>
+
+      </div>
+
+      <iframe class="w-full h-96 rounded-lg  pt-3" src="https://www.youtube.com/embed/9-z2o_TywCg">
+
+
+    </div>
+
+  </div>
+
+
+  </div>
+
+</body>
+
+</html>
