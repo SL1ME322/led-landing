@@ -6,6 +6,9 @@ tailwind.config = {
         clifford: "#da373d",
         divider: "#2C90F7",
       },
+      fontFamily: {
+        'sans': ['Montserrat', 'sans-serif'],
+      },
     },
   },
 };
